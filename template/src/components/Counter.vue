@@ -2,7 +2,7 @@
   <div id="app">
     <h2>vuex demo</h2>
     <p>start to edit <strong>src/store</strong></p>
-    Clicked: {{ $store.state.count }} times, count is {{ evenOrOdd }}.
+    Clicked: \{{ $store.state.count }} times, count is \{{ evenOrOdd }}.
     <button @click="increment">+</button>
     <button @click="decrement">-</button>
     <button @click="incrementIfOdd">Increment if odd</button>
