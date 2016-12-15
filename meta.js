@@ -44,7 +44,7 @@ module.exports = {
       "type": "confirm",
       "message": "Working with vue-router?"
     },
-    "routerConifg": {
+    "routerConfig": {
       "when": "router",
       "type": "list",
       "message": "Pick a vue-router mode",
