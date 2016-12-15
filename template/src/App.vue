@@ -3,6 +3,8 @@
     <img src="./assets/logo.png">
     <hello></hello>
     {{#if router}}
+    <h2>vue router</h2>
+    <p>config the router at <strong>src/routes</strong></p>
     <router-link to="/hello">go to hello</router-link>
     {{/if}}
   </div>

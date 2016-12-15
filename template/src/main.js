@@ -6,6 +6,7 @@ import Vue from 'vue'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#if router}}
 import VueRouter from 'vue-router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import { routes } from './routes'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
 Vue.use(VueRouter){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{else}}
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
