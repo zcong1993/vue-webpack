@@ -2,6 +2,9 @@
   <div id="app">
     <img src="./assets/logo.png">
     <hello></hello>
+    {{#if router}}
+    <router-link to="/hello">go to hello</router-link>
+    {{/if}}
   </div>
 </template>
 
