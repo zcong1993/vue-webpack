@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 export default {
   name: 'counter',
@@ -24,5 +24,5 @@ export default {
     'incrementIfOdd',
     'incrementAsync'
   ])
-}
+}{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 </script>

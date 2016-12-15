@@ -44,6 +44,23 @@ module.exports = {
       "type": "confirm",
       "message": "Working with vue-router?"
     },
+    "routerConifg": {
+      "when": "router",
+      "type": "list",
+      "message": "Pick a vue-router mode",
+      "choices": [
+        {
+          "name": "history",
+          "value": "history",
+          "short": "history"
+        },
+        {
+          "name": "hash",
+          "value": "hash",
+          "short": "hash"
+        }
+      ]
+    },
     "vuex": {
       "type": "confirm",
       "message": "Need vuex?"
