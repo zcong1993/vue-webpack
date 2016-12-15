@@ -89,7 +89,7 @@ module.exports = {
     "config/test.env.js": "unit || e2e",
     "test/unit/**/*": "unit",
     "test/e2e/**/*": "e2e",
-    "src/routes/**/*": "router",
+    "src/router/**/*": "router",
     "src/store/**/*": "vuex",
     "src/components/Counter.vue": "vuex"
   },
