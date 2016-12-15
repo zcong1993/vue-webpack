@@ -89,7 +89,9 @@ module.exports = {
     "config/test.env.js": "unit || e2e",
     "test/unit/**/*": "unit",
     "test/e2e/**/*": "e2e",
-    "src/routes/**/*": "router"
+    "src/routes/**/*": "router",
+    "src/store/**/*": "vuex",
+    "src/components/Counter.vue": "vuex"
   },
   "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\nDocumentation can be found at https://vuejs-templates.github.io/webpack"
 };
