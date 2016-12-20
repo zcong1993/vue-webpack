@@ -1,8 +1,18 @@
+
 # vue-webpack-boilerplate
+
+> A custom `vue webpack starter` forked from official.
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
 > This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+
+## Changes
+
+- `vue-router` starter
+
+- `vuex` starter
+
 
 ## Documentation
 
@@ -15,7 +25,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init zcong1993/vue-webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev
