@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    {{#router}}
-    <router-view></router-view>
-    {{else}}
     <hello></hello>
     {{#if router}}
     <h2>vue router</h2>
@@ -17,15 +14,12 @@
 </template>
 
 <script>
-{{#unless router}}
 import Hello from './components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#if vuex}}
 import Counter from './components/Counter'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if}}
-
-{{/unless}}
 export default {
-  name: 'app'{{#router}}{{#if_eq lintConfig "airbnb"}},{{/if_eq}}{{else}},
+  name: 'app',
   components: {
     Hello{{#if vuex}},
     Counter{{/if}}{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
