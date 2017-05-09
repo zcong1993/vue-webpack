@@ -106,7 +106,7 @@ module.exports = {
     "config/test.env.js": "unit || e2e",
     "test/unit/**/*": "unit",
     "test/e2e/**/*": "e2e",
-    "src/router/**/*": "router",
+    "src/router/**/*": "routerConfig === 'hash'",
     "src/store/**/*": "vuex",
     "src/components/Counter.vue": "vuex"
   },
